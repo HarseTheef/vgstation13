@@ -18,7 +18,7 @@ var/global/recursiveFood = 0
 var/global/ingredientLimit = 10
 
 /client/proc/configFood()
-	set name = "Configure Food"
+	set name = "Configure Fud"
 	set category = "Debug"
 
 	. = (alert("Deep Fried Everything?",,"Yes","No")=="Yes")
